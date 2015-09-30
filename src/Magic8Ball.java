@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	
 
 	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
-int bob = new Random().nextInt(3);
+int bob = new Random().nextInt(5);
 	// 3. Print out this variable
 System.out.println(bob);
 	// 4. Get the user to enter a question for the 8 ball
@@ -34,8 +34,13 @@ if(bob == 2){
 	// -- tell the user "Maybe you should ask Google?"
 
 	// 8. If the random number is 3
-
+if(bob == 3){
+	JOptionPane.showMessageDialog(null, "I don't know what to tell you");
+}
 	// -- write your own answer
+if (bob == 4){
+	JOptionPane.showMessageDialog(null, "Try again");
+}
 }
 }
 
