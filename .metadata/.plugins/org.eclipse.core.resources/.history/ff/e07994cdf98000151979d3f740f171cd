@@ -1,0 +1,25 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class MyFirstGUI {
+	JFrame window;
+	JPanel panel;
+	JButton button;
+public static void main(String[] args) {
+	MyFirstGUI x = new MyFirstGUI();
+}
+MyFirstGUI(){
+	System.out.print  ("hello");
+	window = new JFrame();
+	window.setVisible(true);
+	window.setSize(500,500);
+	window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	panel=new JPanel();
+	window.add(panel);
+	button=new JButton();
+	panel.add(button);
+	
+}
+}

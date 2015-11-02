@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+
+
+public class MyFirstGUI {
+	JFrame window;
+public static void main(String[] args) {
+	MyFirstGUI x = new MyFirstGUI();
+}
+MyFirstGUI(){
+	System.out.print  ("hello");
+	window = new JFrame();
+	window.setVisible(true);
+}
+}

@@ -1,0 +1,9 @@
+
+public class MyFirstGUI {
+public static void main(String[] args) {
+	MyFirstGUI x = new MyFirstGUI();
+}
+MyFirstGUI(){
+	System.out.print  ("hello");
+}
+}
